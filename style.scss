@@ -1,0 +1,22 @@
+$color1: #ff7e67;
+$color2:#206a5d;
+
+@mixin flexcenter {
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.frame{
+    width:80%;
+    @include flexcenter();
+}
+
+body{
+    font-family: "Anton";
+    color: $color2;
+    background: $color1;
+    font-size: 30pt;
+    line-height:100pt;
+}

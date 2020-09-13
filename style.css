@@ -1,0 +1,22 @@
+.frame {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  font-family: "Anton";
+  color: #206a5d;
+  background: #ff7e67;
+  font-size: 30pt;
+  line-height: 100pt;
+}
+/*# sourceMappingURL=style.css.map */
